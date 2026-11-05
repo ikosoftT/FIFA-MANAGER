@@ -1,0 +1,1 @@
+export function PageHeader({eyebrow,title,description}:{eyebrow:string;title:string;description:string}){return <div style={{marginBottom:24}}><div className="eyebrow">{eyebrow}</div><h1 className="page-title">{title}</h1><p className="muted" style={{maxWidth:650,lineHeight:1.6}}>{description}</p></div>}
